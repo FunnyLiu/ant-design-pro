@@ -4,7 +4,7 @@ import defaultSettings from './defaultSettings';
 import proxy from './proxy';
 
 const { REACT_APP_ENV } = process.env;
-
+//defineConfig仅仅将结果返回，封装一个函数的意义是为了类型
 export default defineConfig({
   hash: true,
   antd: {},

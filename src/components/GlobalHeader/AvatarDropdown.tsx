@@ -2,6 +2,7 @@ import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons
 import { Avatar, Menu, Spin } from 'antd';
 import { ClickParam } from 'antd/es/menu';
 import React from 'react';
+// connect为react-redux的connect
 import { history, ConnectProps, connect } from 'umi';
 import { ConnectState } from '@/models/connect';
 import { CurrentUser } from '@/models/user';
